@@ -13,6 +13,7 @@ public class StockReport {
 	}
 
 	public Optional<LocalDate> getDateOfHighestValue(LocalDate start, LocalDate end) {
+		stockService.getAllFromDate(start, end);
 		return Optional.empty();
 	}
 

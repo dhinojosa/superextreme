@@ -2,6 +2,7 @@ package com.xyzcorp;
 
 import java.util.Optional;
 import java.util.function.BiPredicate;
+import java.util.stream.Stream;
 
 public class CalcStats {
 
