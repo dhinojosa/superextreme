@@ -33,8 +33,9 @@ public class StockServiceImplTest {
 
     }
 
-    //@Test
-    //@Category(value = IntegrationTest.class)
+
+    @Test
+    @Category(value = IntegrationTest.class)
     public void testConnectWithARealWebService() throws IOException {
         URL url = new URL("http://ichart.finance.yahoo.com/table.csv?s=SBUX&a=00&b=01&c=2017");
         InputStreamReader reader = new InputStreamReader(
