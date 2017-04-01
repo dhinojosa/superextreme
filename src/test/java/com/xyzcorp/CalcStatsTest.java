@@ -24,6 +24,13 @@ public class CalcStatsTest {
 		Optional<Integer> result = cs.getMaximum();
 	    assertEquals(Optional.of(10), result);			
 	}
+	
+	@Test
+	public void testMaxSample() {
+	    CalcStats cs = new CalcStats(new int[]{5, 10,2,3,-1,0,9});
+		Optional<Integer> result = cs.getMaximum();
+	    assertEquals(Optional.of(10), result);			
+	}
 
 	@Test
 	public void testEmptyArray() {
