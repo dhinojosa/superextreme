@@ -1,7 +1,6 @@
 package com.xyzcorp;
 
 import java.time.LocalDate;
-import java.util.List;
 import java.util.Optional;
 
 public class StockReport {

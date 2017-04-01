@@ -38,6 +38,6 @@ public class StockServiceImplTest {
 		StockServiceImpl stockService = new StockServiceImpl(lines);
 		List<? extends Stock> stockServiceList = stockService.getAllFromDate(LocalDate.of(2017, 1, 1),
 				LocalDate.of(2017, 1, 3));
-		assertThat(stockServiceList.get(0).getHigh()).isEqualTo(58.2999, Offset.offset(.01));
+		assertThat(stockServiceList.get(0).getHigh()).isEqualTo(58.66, Offset.offset(.01));
 	}
 }
